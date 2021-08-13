@@ -10,6 +10,6 @@ app.get("/", (req, res) => {
 });
 
 // Routes
-app.use("/musica", require("./routes/musica.routes"));
+app.use(require("./routes/musica.routes"));
 
 module.exports = app;
