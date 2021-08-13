@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const router = Router();
 
-router.get("/", (req, res) => {
+router.get("/musica", (req, res) => {
   res.send("Musica Routes");
 });
 
